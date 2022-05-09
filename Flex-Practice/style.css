@@ -1,0 +1,36 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#container {
+    height:1000px;
+    width:1000px;
+    padding:10px;
+    background-color: salmon;
+    display:flex;
+    justify-content: space-around;
+    flex-direction:column;
+    margin:10px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    height:200px;
+    width:200px;
+    margin:2px;
+    background-color: yellow;
+    border:2px solid black;
+}
+
+.box-2{
+    order: 1;
+}
+
+.box-1 {
+    align-self:center;
+}
+
+.box-4{
+    order:1;
+    align-self: flex-end;
+}
